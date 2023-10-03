@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
+    <link rel="stylesheet" href="todo-list.css">
 </head>
 
 <body>
-    <h3>Todo List Practice 1</h3>
-    <input placeholder="Todo name" class="inputTodo">
-    <input type="date" class="date-input">
-    <button onclick="addTodo();">Add</button>
-    <div class="js-todo-list">text</div>
+    <h3>Todo List</h3>
+    <div class="todo-inut-grid">
+        <input placeholder="Todo name" class="inputTodo">
+        <input type="date" class="date-input">
+        <button class="addBtn" onclick="addTodo(); ">Add</button>
+    </div>
+    <div class="js-todo-list todo-grid"></div>
 
-    
-    
+
+
     <script src="todo-list.js">   </script>
 
 </body>

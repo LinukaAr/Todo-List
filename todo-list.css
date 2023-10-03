@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+}
+
+.todo-grid,
+.todo-inut-grid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo-inut-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.addBtn {
+    background-color: green;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.deleteBtn {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    padding: 6px;
+    border: none;
+    font-size: 15px;
+}
